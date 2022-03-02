@@ -3,8 +3,9 @@ import heart from "../assets/heart.png"
 import organic from "../assets/plant-based.png"
 import shipped from "../assets/shipped.png"
 
-function Description() {
+//Partie description en iconographie des valeurs de la marque
 
+function Description() {
     return (
         <section className="descr_section">
             <div className="descr_part">

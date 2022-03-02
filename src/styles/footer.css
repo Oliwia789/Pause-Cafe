@@ -1,0 +1,68 @@
+footer {
+    background: #FBB90C;
+    font-family: "Open sans", sans-serif;
+    border-radius: 45px 45px 0 0;
+}
+
+.footer_main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    align-items: center;
+}
+
+.footer_logo {
+    height: 100px;
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+.footer_contact address {
+    font-style: initial;
+}
+
+.footer_email {
+    margin: 15px 0;
+    font-weight: 800;
+}
+
+.footer_anchors {
+    list-style: none;
+}
+
+.footer_anchors li {
+    padding: 15px 0;
+}
+
+.social {
+    padding: 0 15px;
+}
+
+.social img {
+    height: 50px;
+}
+
+hr {
+    border: solid 1px;
+    width: 80%;
+}
+
+.footer_others {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+    align-items: center;
+}
+
+.help {
+    margin-left: 15px;
+}
+
+.footer_others img {
+    height: 50px;
+    padding: 0 10px;
+}

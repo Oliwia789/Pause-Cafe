@@ -1,0 +1,25 @@
+.descr_section {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.descr_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    text-align: center;
+}
+
+.descr_img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.descr_text {
+    font-family: "Fraunces", serif;
+    font-weight: 800;
+}

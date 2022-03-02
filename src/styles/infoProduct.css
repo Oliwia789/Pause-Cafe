@@ -1,0 +1,161 @@
+
+.info_product {
+    padding: 10% 10% 5% 10%;
+    background: #055E37;
+    font-family: "Fraunces", serif;
+    border-radius: 0 0 45px 45px;
+}
+
+.carousel {
+    width: 350px;
+    height: 530px;
+}
+
+.carousel_img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.arrows_container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel_arrow {
+    padding: 5%;
+    background: white;
+    border-radius: 50px;
+    height: 50px;
+}
+
+.left_arrow {
+    transform: rotate(180deg);
+    margin-right: 15%;
+}
+
+.back_home {
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.back_home a {
+    color: white;
+    font-size: 20px;
+}
+
+.main_container {
+    display: flex;
+}
+
+.carousel_container{
+    width: 60%;
+}
+
+.text_container {
+    margin-left: 15%;
+}
+
+.info_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_container span {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.info_container div {
+    background-color: black;
+    color: white;
+    width: 30%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.description {
+    padding: 1%;
+    line-height: 35px;
+}
+
+.choice {
+    font-size: 20px;
+}
+
+.choice_options {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.choice_options div {
+    margin-right: 20%;
+    padding: 1%;
+    background: black;
+    color: white;
+    width: 25%;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cart_container {
+    display: flex;
+    justify-content: end;
+}
+
+.products_nb  {
+    display: flex;
+    margin-right: 10%;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 15%;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.products_nb div {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.products_nb .nb {
+    margin: 0 10%;
+}
+
+.add_prod {
+    border: none;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Fraunces", serif;
+}

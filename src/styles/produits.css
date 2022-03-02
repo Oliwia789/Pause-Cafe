@@ -1,0 +1,77 @@
+.section_products {
+    background: #f5f5f5;
+    border-radius: 40px;
+    font-family: "Fraunces", serif;
+    padding-bottom: 120px;
+}
+
+.products_title {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.products_descr {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cards_products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5% 10%;
+    padding: 0 10% 0 10%;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.card_products {
+    background: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.card_products:hover {
+    background-color: #055E37;
+}
+
+.img_products {
+    height: 350px;
+}
+
+.banner_products {
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    background: black;
+    color: white;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.origin_products {
+    font-style: italic;
+}
+
+.name_products {
+    font-size: 20px;
+}
+
+.price_products {
+    margin-bottom: 25px;
+}
+
+.info_products {
+    border: none;
+    padding: 4%;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Fraunces", serif;
+    font-size: 16px;
+}

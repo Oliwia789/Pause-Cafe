@@ -1,9 +1,10 @@
 
 function Products(props) {
 
+    //Ce composant utilise les props pour récupérer les information de chaque produit
     return (
         <div className="card_products">
-            <img src={props.img} alt="image produit" className="img_products"/>
+            <img src={props.img} className="img_products"/>
             {
                 props.special &&
                 <div className="banner_products">{props.special}</div>

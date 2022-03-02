@@ -1,0 +1,40 @@
+.section_title {
+    height: 700px;
+    background-color: #055E37;
+    background-image: url(../assets/main_img.png);
+    background-size: 320px;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 70%;
+    font-family: "Fraunces", serif;
+    padding: 10% 5% 5% 5%;
+    border-radius: 0 0 40px 40px;
+}
+
+.main_title { 
+    font-size: 45px;
+    white-space: nowrap;
+    color: #EDBABD;
+}
+
+.title_descr {
+    width: 50%;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+    margin-top: 60px;
+}
+
+.title_btn {
+    margin-top: 80px;
+    width: 20%;
+    margin-left: 15%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Fraunces", serif;
+    font-size: 20px;
+    background-color: #FBB90C;
+    color: white;
+    cursor: pointer;
+}

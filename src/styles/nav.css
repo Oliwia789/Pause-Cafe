@@ -1,0 +1,43 @@
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Open sans", sans-serif;
+    padding: 0 50px 0 50px;
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 10;
+}
+
+.logo {
+    height: 90px;
+    margin-right: 10%;
+}
+
+.cart, .user {
+    height: 35px;
+    cursor: pointer;
+}
+
+.logo_part {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav_anchor {
+    color: black;
+    margin-right: 10%;
+}
+
+.cart {
+    margin-left: 5%;
+}
+
+.user_part {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}

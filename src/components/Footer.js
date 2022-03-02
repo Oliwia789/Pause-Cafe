@@ -8,6 +8,7 @@ import twitter from "../assets/twitter.png"
 import insta from "../assets/instagram.png"
 
 function Footer() {
+    //tableau des images des moyens de payement pour utiliser map 
     let payement = [visa, paypal, amex, apple]
     return (
         <footer>
@@ -37,8 +38,7 @@ function Footer() {
                 </div>
                 <div>
                     {
-                        payement.map(element => <img src={element} alt="logo moyen de paiement"/>)
-
+                        payement.map(element => <img key={element} src={element} alt="logo moyen de paiement"/>)
                     }
                 </div>
             </div>

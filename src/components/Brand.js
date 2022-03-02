@@ -1,4 +1,6 @@
 
+//Partie histoire de la marque, explication du concept 
+
 function Brand() {
     return (
         <section className="section_brand">
