@@ -44,3 +44,21 @@
     color: white;
     cursor: pointer;
 }
+
+@media screen and (max-width: 950px) {
+    .container_insta {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5% 5%;
+    }
+
+    .insta_img {
+        width: 100%;
+    }
+
+    .section_insta button {
+        margin-top: auto;
+        margin-left: 30%;
+        width: 40%;
+    }
+}

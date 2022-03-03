@@ -66,3 +66,22 @@ hr {
     height: 50px;
     padding: 0 10px;
 }
+
+@media screen and (max-width: 760px) {
+    .footer_main {
+        flex-direction: column;
+    }
+
+    .footer_contact {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer_anchors {
+        padding: 0;
+    }
+
+    .payements {
+        margin-left: 15%;
+    }
+}

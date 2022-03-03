@@ -38,3 +38,43 @@
     color: white;
     cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+    .section_title {
+        padding: 20% 5% 5% 5%;
+        height: auto;
+    }
+
+    .main_title {
+        white-space: initial;
+    }
+
+    .title_descr {
+        width: auto;
+    }
+
+    .title_btn {
+        width: 50%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1050px)  {
+
+    .section_title {
+        height: auto;
+    }
+
+    .main_title {
+        white-space: initial;
+    }
+
+    .title_descr {
+        width: auto;
+    }
+
+    .title_btn {
+        width: 50%;
+        margin-left: 20%;
+    }
+}

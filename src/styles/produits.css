@@ -75,3 +75,37 @@
     font-family: "Fraunces", serif;
     font-size: 16px;
 }
+
+@media screen and (max-width: 767px) {
+    .cards_products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_products {
+        margin-bottom: 50px;
+        background: #055E37;
+    }
+
+    .products_descr {
+        margin: 0 10%;
+    }
+    
+    .section_products {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1050px) {
+    .section_products {
+        padding-bottom: 250px;
+    }
+
+    .cards_products {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .products_descr {
+        margin: 0 10%;
+    }
+}

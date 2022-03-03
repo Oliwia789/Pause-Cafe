@@ -57,3 +57,43 @@
     font-weight: 800;
     background: #f5f5f5;
 }
+
+@media screen and (max-width: 767px) {
+    .section_sub {
+        margin: 10% 1%;
+    }
+    .sub_title {
+        top: initial;
+        left: 5%;
+    }
+
+    .sub_text {
+        line-height: initial;
+    }
+
+    .sub_text p {
+        margin-top: 130px;
+        font-size: 15px;
+    }
+
+    .sub_text button {
+        width: initial;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1050px)  {
+    .sub_text {
+        line-height: initial;
+    }
+
+    .sub_text p {
+        margin-top: 60%;
+    }
+
+    .sub_text button {
+        margin-top: auto;
+        width: auto;
+    }
+}

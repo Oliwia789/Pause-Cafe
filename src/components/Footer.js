@@ -36,7 +36,7 @@ function Footer() {
                     <a href="#">CGV</a>
                     <a href="#" className="help">Aide</a>
                 </div>
-                <div>
+                <div className="payements">
                     {
                         payement.map(element => <img key={element} src={element} alt="logo moyen de paiement"/>)
                     }
