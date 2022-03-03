@@ -1,9 +1,9 @@
 // Importer les styles :
 import "../styles/header.css"
 import "../styles/description.css"
-import "../styles/produits.css"
+import "../styles/products.css"
 import "../styles/brand.css"
-import "../styles/prod.css"
+import "../styles/producers.css"
 import "../styles/sub.css"
 import "../styles/insta.css"
 
@@ -31,7 +31,7 @@ function Home() {
         <>
             <Header/>
             <Description/>
-            <section className="section_products">
+            <section className="section_products" id="nos_cafes">
                 <h2 className="products_title">On fait une pause ?</h2>
                 <p className="products_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor natoque cursus purus sit suspendisse at mi senectus. </p>
                 <div className="cards_products">

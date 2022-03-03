@@ -1,6 +1,7 @@
 import arrow from "../assets/right-arrow.png"
 import imagesProduits from "../Data/imagesProduits"
 import React from "react"
+import { Link } from 'react-router-dom'
 
 
 function InfoProduit() {
@@ -18,10 +19,17 @@ function InfoProduit() {
     //+ ou -
     const [currentNb, setCurrentNb] = React.useState(1)
 
+    //TODO trouver une meilleur façon d'ajouter l'id active à chaqu'une des options
+    const [option1, setOption1] = React.useState(false)
+    const [option2, setOption2] = React.useState(false)
+    const [option3, setOption3] = React.useState(false)
+    const [option4, setOption4] = React.useState(false)
+
+
     return (
         <section className="info_product">
             <div className="back_home">
-                <a href="#">Accueil</a>
+                <Link to="/">Accueil</Link>
             </div>
             <div className="main_container">
                 <div className="carousel_container">
@@ -43,20 +51,20 @@ function InfoProduit() {
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum neque nascetur orci, ultricies eget. Arcu non eget in scelerisque orci condimentum facilisis urna enim. Faucibus ultrices sit egestas velit sed feugiat.</p>
                     <span className="choice">Poids :</span>
                     <div className="choice_options">
-                        <div>1 kg</div>
-                        <div>250g</div>
+                        <div onClick={() => setOption1(!option1)} id={option1 && "active"}>1 kg</div>
+                        <div onClick={() => setOption2(!option2)} id={option2 && "active"}>250g</div>
                     </div>
                     <span className="choice">Mouture :</span>
                     <div className="choice_options">
-                        <div>Grains</div>
-                        <div>Fraîchement moulue</div>
+                        <div onClick={() => setOption3(!option3)} id={option3 && "active"}>Grains</div>
+                        <div onClick={() => setOption4(!option4)} id={option4 && "active"}>Fraîchement moulue</div>
                     </div>
                 </div>
             </div>
             <div className="cart_container">
                 <div className="products_nb">
                     <div onClick={() => setCurrentNb(currentNb > 1 ? currentNb - 1 : 1)}>-</div>
-                    <div className="nb">{currentNb}</div>
+                    <div className="nb">{currentNb.toString()}</div>
                     <div onClick={() => setCurrentNb(currentNb + 1)}>+</div>
                 </div>
                 <button className="add_prod">Ajouter au panier</button>

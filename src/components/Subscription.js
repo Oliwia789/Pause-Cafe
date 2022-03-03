@@ -2,7 +2,7 @@ import sub from "../assets/abonnement.jpg"
 
 function Subscription() {
     return (
-        <section className="section_sub">
+        <section className="section_sub" id="sub">
             <h2 className="sub_title">Plus jamais de "café" dans votre liste de courses</h2>
             <div className="sub_img">
                 <img src={sub} alt="photographie cafés"/>

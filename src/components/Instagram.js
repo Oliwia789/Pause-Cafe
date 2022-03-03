@@ -17,11 +17,11 @@ function Instagram() {
             <h2 className="title_insta">On se follow ?</h2>
             <div className="container_insta">
                 {
-                    posts.map(element => <img key={element} className="insta_img" src={element} alt="photo compte instagram"/>)
+                    posts.map(element => <img key={element} className="insta_img" src={element} alt="compte instagram"/>)
                 }
             </div>
             <h2 className="title_last">Le meilleur de Pause Café directement chez vous</h2>
-            <button>Nos Cafés</button>
+            <a href="#nos_cafes"><button>Nos Cafés</button></a>
         </section>
     )
 }

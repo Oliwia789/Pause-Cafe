@@ -10,9 +10,13 @@ import ProductPage from "./ProductPage"
 import Home from "./Home"
 import Account from "./Account"
 
+//Pour que chaque page route scroll au début de la page au chargement 
+import ScrollToTop from "./ScrollToTop"
+
 function App() {
     return (
         <Router>
+            <ScrollToTop />
             <>
                 <Nav/>
                 <Switch>

@@ -32,14 +32,20 @@ footer {
 
 .footer_anchors {
     list-style: none;
+    text-align: center;
 }
 
 .footer_anchors li {
     padding: 15px 0;
 }
 
+.social_container {
+    display: flex;
+}
+
 .social {
     padding: 0 15px;
+    cursor: pointer;
 }
 
 .social img {
@@ -65,6 +71,10 @@ hr {
 .footer_others img {
     height: 50px;
     padding: 0 10px;
+}
+
+.footer_others span {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 760px) {

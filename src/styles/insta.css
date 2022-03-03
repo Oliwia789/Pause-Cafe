@@ -11,11 +11,36 @@
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.insta_img:hover {
+    opacity: 50%;
 }
 
 .title_insta {
     text-align: center;
     font-size: 45px;
+    cursor: pointer;
+    position: relative;
+}
+
+.title_insta::before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    background-color: black;
+    bottom: -2px;
+    left: 40%;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.title_insta:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 .container_insta {
@@ -43,6 +68,13 @@
     background: #055E37;
     color: white;
     cursor: pointer;
+    transform: scale(1);
+    transition: transform .4s ease-in-out, color .4s ease-in-out;
+}
+
+.section_insta button:hover {
+    transform: scale(1.1);
+    color: #FBB90C;
 }
 
 @media screen and (max-width: 950px) {

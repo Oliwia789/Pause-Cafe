@@ -74,6 +74,12 @@
     cursor: pointer;
     font-family: "Fraunces", serif;
     font-size: 16px;
+    transform: scale(1);
+    transition: transform .4s ease-in-out;
+}
+
+.info_products:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 767px) {

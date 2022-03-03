@@ -20,21 +20,21 @@ function Footer() {
                     <a href="tel:+33158148715">01.58.14.87.15</a>
                 </div>
                 <ul className="footer_anchors">
-                    <li><a href="#">La marque</a></li>
-                    <li><a href="#">Nos cafés</a></li>
-                    <li><a href="#">Abonnez-vous</a></li>
+                    <li><a href="#la_marque">La marque</a></li>
+                    <li><a href="#nos_cafes">Nos cafés</a></li>
+                    <li><a href="#sub">Abonnez-vous</a></li>
                 </ul>
-                <div>
-                    <a href="#" className="social"><img src={insta} alt="logo instagram"/></a>
-                    <a href="#" className="social"><img src={twitter} alt="logo twitter"/></a>
-                    <a href="#" className="social"><img src={facebook} alt="logo facebook"/></a>
+                <div className="social_container">
+                    <div className="social"><img src={insta} alt="logo instagram"/></div>
+                    <div className="social"><img src={twitter} alt="logo twitter"/></div>
+                    <div className="social"><img src={facebook} alt="logo facebook"/></div>
                 </div>
             </div>
             <hr/>
             <div className="footer_others">
                 <div>
-                    <a href="#">CGV</a>
-                    <a href="#" className="help">Aide</a>
+                    <span>CGV</span>
+                    <span className="help">Aide</span>
                 </div>
                 <div className="payements">
                     {

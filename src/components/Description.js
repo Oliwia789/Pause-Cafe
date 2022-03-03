@@ -3,7 +3,6 @@ import heart from "../assets/heart.png"
 import organic from "../assets/plant-based.png"
 import shipped from "../assets/shipped.png"
 
-//Partie description en iconographie des valeurs de la marque
 
 function Description() {
     return (
