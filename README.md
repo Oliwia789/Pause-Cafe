@@ -11,5 +11,6 @@ Pour lancer ce projet :
 - `cd NomRepository`
 - `npm install`
 - `npm start`
+- `npm install react-router-dom@5`
 
 
