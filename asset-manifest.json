@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pause-Cafe/static/css/main.1d90ec39.css",
-    "main.js": "/Pause-Cafe/static/js/main.5781e2c8.js",
+    "main.js": "/Pause-Cafe/static/js/main.0b3617ce.js",
     "static/media/coffee_3.jpg": "/Pause-Cafe/static/media/coffee_3.139dca638d7cfbd217d4.jpg",
     "static/media/main_img.png": "/Pause-Cafe/static/media/main_img.bd6e8adaa3602f1e7173.png",
     "static/media/producteurs.jpg": "/Pause-Cafe/static/media/producteurs.02417410afb60c600f4b.jpg",
@@ -31,10 +31,10 @@
     "static/media/paypal.png": "/Pause-Cafe/static/media/paypal.d58b3efca999db71a508.png",
     "index.html": "/Pause-Cafe/index.html",
     "main.1d90ec39.css.map": "/Pause-Cafe/static/css/main.1d90ec39.css.map",
-    "main.5781e2c8.js.map": "/Pause-Cafe/static/js/main.5781e2c8.js.map"
+    "main.0b3617ce.js.map": "/Pause-Cafe/static/js/main.0b3617ce.js.map"
   },
   "entrypoints": [
     "static/css/main.1d90ec39.css",
-    "static/js/main.5781e2c8.js"
+    "static/js/main.0b3617ce.js"
   ]
 }
