@@ -23,7 +23,7 @@ function Nav() {
     return (
         <nav>
             <div className="logo_part">
-                <Link to="/" className="logo_link"><img src={logo} className="logo" alt="logo pause café"/></Link>
+                <Link to="/Pause-Cafe" className="logo_link"><img src={logo} className="logo" alt="logo pause café"/></Link>
                 <a href="#nos_cafes" className="nav_anchor">Nos cafés</a>
                 <a href="#la_marque" className="nav_anchor">La marque</a>
             </div>
