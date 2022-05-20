@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Pause-Cafe/static/css/main.1d90ec39.css",
+    "main.js": "/Pause-Cafe/static/js/main.5781e2c8.js",
+    "static/media/coffee_3.jpg": "/Pause-Cafe/static/media/coffee_3.139dca638d7cfbd217d4.jpg",
+    "static/media/main_img.png": "/Pause-Cafe/static/media/main_img.bd6e8adaa3602f1e7173.png",
+    "static/media/producteurs.jpg": "/Pause-Cafe/static/media/producteurs.02417410afb60c600f4b.jpg",
+    "static/media/insta_4.jpg": "/Pause-Cafe/static/media/insta_4.0cdf6ce24bc1d827bd8a.jpg",
+    "static/media/abonnement.jpg": "/Pause-Cafe/static/media/abonnement.58093d2fee3963f3e178.jpg",
+    "static/media/insta_6.jpg": "/Pause-Cafe/static/media/insta_6.96fe9ca33d72fac1ee4f.jpg",
+    "static/media/insta_2.jpg": "/Pause-Cafe/static/media/insta_2.cb5c0d83f43bb08f91d8.jpg",
+    "static/media/insta_1.jpg": "/Pause-Cafe/static/media/insta_1.2ab500be50a1870bbf14.jpg",
+    "static/media/coffee_1.png": "/Pause-Cafe/static/media/coffee_1.f74b45084fc7c6c47bfa.png",
+    "static/media/insta_7.jpg": "/Pause-Cafe/static/media/insta_7.f7ab954a38bc3039af47.jpg",
+    "static/media/insta_5.jpg": "/Pause-Cafe/static/media/insta_5.76dffb3a8a781cfd9e11.jpg",
+    "static/media/coffee_2.png": "/Pause-Cafe/static/media/coffee_2.6a5cec31e175fb4dc875.png",
+    "static/media/insta_3.jpg": "/Pause-Cafe/static/media/insta_3.d24b9204e5a063095cd7.jpg",
+    "static/media/insta_0.jpg": "/Pause-Cafe/static/media/insta_0.2c7f95b120c16ae9ddbf.jpg",
+    "static/media/logo_black.png": "/Pause-Cafe/static/media/logo_black.3882f6dd552af485a776.png",
+    "static/media/user.png": "/Pause-Cafe/static/media/user.ff78898164b887b1bb53.png",
+    "static/media/plant-based.png": "/Pause-Cafe/static/media/plant-based.451dc551c19c9f114f80.png",
+    "static/media/instagram.png": "/Pause-Cafe/static/media/instagram.b4ff9be06a8f84fada1b.png",
+    "static/media/heart.png": "/Pause-Cafe/static/media/heart.8282275b4a8053bf5eb5.png",
+    "static/media/farmer.png": "/Pause-Cafe/static/media/farmer.2c276cf11640b313b4d5.png",
+    "static/media/visa.png": "/Pause-Cafe/static/media/visa.257843bf06c27a77fd0f.png",
+    "static/media/apple-pay.png": "/Pause-Cafe/static/media/apple-pay.88a507c171814d8a881a.png",
+    "static/media/twitter.png": "/Pause-Cafe/static/media/twitter.a0edd153afbcdb7ffc3b.png",
+    "static/media/amex.png": "/Pause-Cafe/static/media/amex.527edf329e422aae25d8.png",
+    "static/media/shipped.png": "/Pause-Cafe/static/media/shipped.d6f764205b7c156a7490.png",
+    "static/media/facebook.png": "/Pause-Cafe/static/media/facebook.bfd1cfff9f9521198b26.png",
+    "static/media/paypal.png": "/Pause-Cafe/static/media/paypal.d58b3efca999db71a508.png",
+    "index.html": "/Pause-Cafe/index.html",
+    "main.1d90ec39.css.map": "/Pause-Cafe/static/css/main.1d90ec39.css.map",
+    "main.5781e2c8.js.map": "/Pause-Cafe/static/js/main.5781e2c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d90ec39.css",
+    "static/js/main.5781e2c8.js"
+  ]
+}
