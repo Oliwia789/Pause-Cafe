@@ -17,21 +17,16 @@ function App() {
     return (
         <Router>
             <ScrollToTop />
-            <>
-                <Nav/>
+            <Nav/>
                 <Switch>
-                    <Route exact path="/">
-                        <Home/>
-                    </Route>
-                    <Route path="/produit">
-                        <ProductPage/>
-                    </Route>
-                    <Route path="/inscription">
-                        <Account/>
-                    </Route>
+                <Route exact path="/Pause-Cafe" component={Home}/>
+                       
+                <Route path="/produit" component={ProductPage}/>
+                        
+                <Route path="/inscription" component={Account}/>
                 </Switch>
-                <Footer/>
-            </>
+                        
+            <Footer/>
         </Router>
     )
 }
